@@ -11,5 +11,7 @@
 ## Install OpenShift Extension
    ![](./assets/azure-Install%20Openshift%20Extension.png)
 ## Create Service Connection under Project Settings
+   1) Provide Server URL ( OpenShift API server url)
+   2) Provide Token for API Token
    ![](./assets/azure-%20Service%20Connection.png) 
 7) Run Pipeline
