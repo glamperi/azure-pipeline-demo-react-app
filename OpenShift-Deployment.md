@@ -54,8 +54,10 @@ Deploy the agent
 ```    
 
 ### Changes to Pipeline to use the agents
-![](./assets/azure-agentpool%20pipeline.png)
 Update the pool to the agent pool name in `azure-pipeline.yaml`
+
+![](./assets/azure-agentpool%20pipeline.png)
+
 
 
 
