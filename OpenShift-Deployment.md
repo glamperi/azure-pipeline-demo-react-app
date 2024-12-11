@@ -1,9 +1,9 @@
 # Deployment to OpenShift
 
 ## Create an Azure Org
-   [! Azure Org ](./assets/azure-org.png)
+   ![](./assets/azure-org.png)
 ## Create an Azure Project
-   [! Azure Project ](./assets/azure-project.png)
+   ![](./assets/azure-project.png)
 
 3) Create Pipeline point to the git repository
 
