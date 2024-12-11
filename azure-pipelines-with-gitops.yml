@@ -43,7 +43,7 @@ stages:
           displayName: Build and Push
           inputs:
             containerRegistry: 'quay-container-registry'
-            repository: 'anattama/my-web-react-app'
+            repository: 'redhat_na_ssa/azure-pipeline-demo-react-app'
             command: 'buildAndPush'
             Dockerfile: '**/Dockerfile'
             tags: $(GIT_SHA)
