@@ -84,6 +84,11 @@ Azure Pipelines needs permission to update the manifest repo. To achieve this
 
 # Custom Pool Agents on OpenShift
 
+Instead of using Azure Ubuntu agents to execute the pipeline we can have self hosted agents to reduce cost. These self hosted agents can be deployed on OpenShift. The following section explains how to acheive that.
+
+### Logical Flow
+![](./assets/azure-selfhosted%20agent.png)
+
 ### Create an PAT (Personal Access Token)
 
 ![](./assets/azure-pat%20token.png)
