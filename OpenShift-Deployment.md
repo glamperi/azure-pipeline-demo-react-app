@@ -82,7 +82,7 @@ Azure Pipelines needs permission to update the manifest repo. To achieve this
 ![](./assets/azure-github-add-gitopsrepo.png)
 
 ### Run Pipeline
-   Execute the pipeline azure-pipeline-with-gitops.yaml from Azure.
+   Execute the pipeline `azure-pipeline-with-gitops.yaml` from Azure.
 
 
 
