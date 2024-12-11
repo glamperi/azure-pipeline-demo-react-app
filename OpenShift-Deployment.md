@@ -1,6 +1,6 @@
 # Deployment to OpenShift
 
-## Create an Azure Org
+## Create an Azure Org (https://dev.azure.com/)
    ![](./assets/azure-org.png)
 ## Create an Azure Project
    ![](./assets/azure-project.png)
@@ -15,3 +15,5 @@
    2) Provide Token for API Token
    ![](./assets/azure-%20Service%20Connection.png) 
 ## Run Pipeline
+   Pipeline will use Imperative commands to deploy the react webapp to OpenShift.
+
