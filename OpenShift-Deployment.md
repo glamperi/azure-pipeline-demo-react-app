@@ -53,6 +53,19 @@ Deploy the agent
     oc create -f ./assets/resources/deployment.yaml 
 ```    
 
+### Changes to Pipeline to use the agents
+    Update the pool to the agent pool name in `azure-pipeline.yaml`
+    ![](./assets/azure-agentpool%20pipeline.png)
+
+### Verifying the agents
+    Under Agent pool list the agents under the agents tab like shown below. This should list the pod names from OpenShift in Azure.
+
+    ![](./assets/azure-agent%20verification.png)
+
+    If multiple pods are running under the deployment created all the pods should show here.
+
+
+
 
 
 
