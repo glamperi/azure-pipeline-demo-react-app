@@ -31,6 +31,11 @@ This section describes how to use Azure Pipelines for CI and OpenShift Gitops (A
 
 Please refer to this pipeline  `azure-pipelines-with-gitops.yml`
 
+### Logical Flow : 
+![](./assets/azure-gitops.png)
+
+
+
 
 
 # Custom Pool Agents on OpenShift
