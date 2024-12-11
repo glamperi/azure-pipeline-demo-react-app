@@ -70,12 +70,15 @@ Provide all the details for Quay registry as shown below
 Azure Pipelines needs permission to update the manifest repo. To achieve this 
 
 1) Settings under Manifest repo.
+
 ![](./assets/azure-github-settings.png)
 
 2) Configure Azure Application
+
 ![](./assets/azure-github-azure-app.png)
 
 3) Select the Manifest repository to provide
+
 ![](./assets/azure-github-add-gitopsrepo.png)
 
 
