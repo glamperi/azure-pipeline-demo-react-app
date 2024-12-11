@@ -1,5 +1,10 @@
 # Deployment to OpenShift
 
+Fork the following repositories before the demo 
+
+1) Code Repo : https://github.com/redhat-na-ssa/azure-pipeline-demo-react-app
+2) Manifest Repo : https://github.com/redhat-na-ssa/azure-pipeline-demo-react-app-gitops
+
 ## Prerequisite
 ### Create an Azure Org (https://dev.azure.com/)
    ![](./assets/azure-org.png)
@@ -34,8 +39,6 @@ Please refer to this pipeline  `azure-pipelines-with-gitops.yml`
 ### Logical Flow : 
 ![](./assets/azure-gitops.png)
 
-Code Repo : https://github.com/redhat-na-ssa/azure-pipeline-demo-react-app
-Manifest Repo : https://github.com/redhat-na-ssa/azure-pipeline-demo-react-app-gitops
 
 
 ### Quay Setup 
@@ -61,6 +64,19 @@ Under Project settings in Azure project => Service Connections => Select Docker 
 Provide all the details for Quay registry as shown below
 
 ![](./assets/azure-docker-quay-info.png)
+
+### Permission of gitops repositories 
+
+Azure Pipelines needs permission to update the manifest repo. To achieve this 
+
+1) Settings under Manifest repo.
+![](./assets/azure-github-settings.png)
+
+2) Configure Azure Application
+![](./assets/azure-github-azure-app.png)
+
+3) Select the Manifest repository to provide
+![](./assets/azure-github-add-gitopsrepo.png)
 
 
 # Custom Pool Agents on OpenShift
