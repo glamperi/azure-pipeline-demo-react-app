@@ -34,8 +34,33 @@ Please refer to this pipeline  `azure-pipelines-with-gitops.yml`
 ### Logical Flow : 
 ![](./assets/azure-gitops.png)
 
+Code Repo : https://github.com/redhat-na-ssa/azure-pipeline-demo-react-app
+Manifest Repo : https://github.com/redhat-na-ssa/azure-pipeline-demo-react-app-gitops
 
 
+### Quay Setup 
+
+To push the image from Azure Devops to Quay we need to enable robot account with appropriate privileges
+
+#### Create a robot account for Azure pipeline
+![](./assets/azure-quay-robot-acct.png)
+
+#### Create a new team under org
+![](./assets/azure-quay-create-new-team.png)
+
+#### Add robot account under the team
+![](./assets/azure-quay-add-member.png)
+
+
+### Setup Service Connection for Azure to Quay
+
+Under Project settings in Azure project => Service Connections => Select Docker Registry 
+
+![](./assets/azure-docker-registry.png)
+
+Provide all the details for Quay registry as shown below
+
+![](./assets/azure-docker-quay-info.png)
 
 
 # Custom Pool Agents on OpenShift

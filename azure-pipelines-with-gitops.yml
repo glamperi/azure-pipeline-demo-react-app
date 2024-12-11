@@ -11,10 +11,10 @@ trigger:
 
 resources:
  repositories:
-   - repository: my-web-react-app-gitops
+   - repository: azure-pipeline-demo-react-app-gitops
      type: github
-     endpoint: arunhari82
-     name: arunhari82/my-web-react-app-gitops
+     endpoint: redhat_na_ssa
+     name: redhat_na_ssa/azure-pipeline-demo-react-app-gitops
 
 pool:
   vmImage: ubuntu-latest
@@ -54,7 +54,7 @@ stages:
         displayName: Update Gitops Repo
         steps:
         
-          - checkout: my-web-react-app-gitops
+          - checkout: azure-pipeline-demo-react-app-gitops
             displayName: Checkout Gitops Repository
             persistCredentials: true
           - task: Bash@3
