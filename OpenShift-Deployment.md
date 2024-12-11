@@ -1,8 +1,9 @@
 # Deployment to OpenShift
 
-## Create an Azure Org (https://dev.azure.com/)
+## Prerequisite
+### Create an Azure Org (https://dev.azure.com/)
    ![](./assets/azure-org.png)
-## Create an Azure Project
+### Create an Azure Project
    ![](./assets/azure-project.png)
 
 ## Imperative Deployment
@@ -24,6 +25,10 @@
    
    Pipeline will use Imperative commands to deploy the react webapp to OpenShift.
    
+
+## Gitops Deployment.
+This section describes how to use Azure Pipelines for CI and OpenShift Gitops (ArgoCD) as CD 
+
 
 
 # Run Agents on OpenShift
