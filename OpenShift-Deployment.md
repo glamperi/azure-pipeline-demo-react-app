@@ -29,9 +29,11 @@
 ## Gitops Deployment.
 This section describes how to use Azure Pipelines for CI and OpenShift Gitops (ArgoCD) as CD 
 
+Please refer to this pipeline  `azure-pipelines-with-gitops.yml`
 
 
-# Run Agents on OpenShift
+
+# Custom Pool Agents on OpenShift
 
 ### Create an PAT (Personal Access Token)
 
