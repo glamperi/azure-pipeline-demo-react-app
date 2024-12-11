@@ -4,13 +4,12 @@
    ![](./assets/azure-org.png)
 ## Create an Azure Project
    ![](./assets/azure-project.png)
-
-3) Create Pipeline point to the git repository
-
-4) Look for OpenShift extension provided by Red Hat
-
-5) Install OpenShift Extension
-
-6) Create Service Connection under Project Settings
-
+## Create Pipeline point to the git repository
+   ![](./assets/azure-pipeline.png)
+## Look for OpenShift extension provided by Red Hat
+   ![](./assets/azure-Browse%20Marketplace.png)
+## Install OpenShift Extension
+   ![](./assets/azure-Install%20Openshift%20Extension.png)
+## Create Service Connection under Project Settings
+   ![](./assets/azure-%20Service%20Connection.png) 
 7) Run Pipeline
