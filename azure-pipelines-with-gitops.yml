@@ -13,8 +13,8 @@ resources:
  repositories:
    - repository: azure-pipeline-demo-react-app-gitops
      type: github
-     endpoint: redhat_na_ssa
-     name: redhat_na_ssa/azure-pipeline-demo-react-app-gitops
+     endpoint: test_na
+     name: glamperi/azure-pipeline-demo-react-app-gitops
 
 pool:
   vmImage: ubuntu-latest
@@ -43,7 +43,7 @@ stages:
           displayName: Build and Push
           inputs:
             containerRegistry: 'quay-container-registry'
-            repository: 'redhat_na_ssa/azure-pipeline-demo-react-app'
+            repository: 'test_na/azure-pipeline-demo-react-app'
             command: 'buildAndPush'
             Dockerfile: '**/Dockerfile'
             tags: $(GIT_SHA)
@@ -70,8 +70,8 @@ stages:
             inputs:
               targetType: inline
               script: |       
-                 git config --local user.email "73549783+arunhari82@users.noreply.github.com"
-                 git config --local user.name "arunhari82"
+                 git config --local user.email "glamperi@redhat.com"
+                 git config --local user.name "glamperi"
                  git add ./helm/app/values.yaml
                
           - task: Bash@3
