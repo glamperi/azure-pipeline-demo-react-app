@@ -13,7 +13,7 @@ resources:
  repositories:
    - repository: azure-pipeline-demo-react-app-gitops
      type: github
-     endpoint: test_na
+     endpoint: glamperi
      name: glamperi/azure-pipeline-demo-react-app-gitops
 
 pool:
